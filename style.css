@@ -279,9 +279,9 @@ main {
 	.current-score {
 	
 	}
-	.btn {
+	/*.btn {
 		opacity: 0.7;
-	}
+	}*/
 	.btn--instructions2 {
 		background-color: #fff;
 		opacity: 1;
