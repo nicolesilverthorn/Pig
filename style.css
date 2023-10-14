@@ -261,6 +261,7 @@ main {
 	}
 	.btn--hold {
 		padding: 1rem 1rem;
+		font-size: 1.4rem;
 	}
 	.btn--instructions {
 		top: 53rem;
