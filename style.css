@@ -279,6 +279,7 @@ main {
 		opacity: 0.5;
 	}
 	.btn--instructions2 {
+		background-color: #fff;
 		top: 5.2rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
