@@ -248,7 +248,7 @@ main {
 }
 
 /**************************************************************************** MOBILE ******************************************************************************************/
-@media only screen and (max-width: 800px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	html, body, main {
 		width: 100%;
 	}
@@ -256,7 +256,7 @@ main {
 		width: 100%; 
 	}
 	.name {
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 	.score {
 		
