@@ -96,7 +96,7 @@ main {
 .current {
   background-color: #150064;
   opacity: 0.8;
-  border-radius:10px;
+  border-radius: 10px;
   color: #fff;
   width: 65%;
   padding: 2rem;
@@ -247,9 +247,10 @@ main {
   }
 }
 
+/**************************************************************************** MOBILE ******************************************************************************************/
 @media only screen and (max-width: 520px) {
 	html, body, main {
-		width: 100%;
+		width: 50rem;
 		overflow: hidden;
 	}
 	.player{
@@ -257,6 +258,21 @@ main {
 	}
 	.player--1{
 		width: 100%;
+	}
+	.name {
+		
+	}
+	.score {
+		
+	}
+	.current, .current--main {
+		
+	}
+	.current-label {
+		
+	}
+	.current-score {
+	
 	}
 	#youWin{
 		width: 100%;	
