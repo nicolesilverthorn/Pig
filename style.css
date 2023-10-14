@@ -254,10 +254,10 @@ main {
 		overflow: hidden;
 	}
 	.player{
-		width: 100%; 
+		width: 50%; 
 	}
 	.player--1{
-		width: 100%;
+		width: 50%;
 	}
 	.name {
 		
