@@ -262,7 +262,7 @@ main {
 		padding: 10rem;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 1rem;
 		width: 100%;
 		text-align: center;
 	}
@@ -271,7 +271,7 @@ main {
 	}
 	.current, .current--main {
 		padding: 1rem;
-		width: 80%;
+		width: 6rem;
 	}
 	.current-label {
 		font-size: 1rem;
@@ -279,9 +279,6 @@ main {
 	.current-score {
 	
 	}
-	/*.btn {
-		opacity: 0.7;
-	}*/
 	.btn--instructions2 {
 		background-color: #fff;
 		opacity: 1;
