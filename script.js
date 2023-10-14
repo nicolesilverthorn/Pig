@@ -194,7 +194,7 @@ btnHold.addEventListener('touchstart', function() {
 			tada.play();
 				
         } else {
-			hold.play();
+			//hold.play();
             // Switch to the next player
             switchPlayer();
         }	
