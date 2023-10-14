@@ -269,7 +269,7 @@ main {
 	}
 	.name {
 		font-size: 2rem;
-		width: 10rem;
+		width: 80px;
 	}
 	.score {
 		font-size: 6rem;
