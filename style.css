@@ -276,6 +276,7 @@ main {
 	.name {
 		font-size: 1.8rem;
 		width: 12rem;
+		padding-left: 1rem;
 	}
 	.score {
 		font-size: 6rem;
