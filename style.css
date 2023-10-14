@@ -250,6 +250,7 @@ main {
 /**************************************************************************** MOBILE ******************************************************************************************/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	html, body, main {
+		top: 1rem;
 		width: 100%;
 		overflow: hidden;
 	}
