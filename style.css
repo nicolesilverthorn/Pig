@@ -252,18 +252,14 @@ main {
 	html, body, main {
 		width: 100%;
 	}
-	.player, .player--1{
-		/*flex: 50%;
-		padding: 9rem;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		transition: all 0.75s;*/
+	.player{	
+		width: 50%; 
+	}
+	.player--1{
 		left: 50%;
-		width: 100%; 
 	}
 	.name {
-		
+		font-size: 2rem;
 	}
 	.score {
 		
