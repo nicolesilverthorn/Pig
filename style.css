@@ -251,6 +251,7 @@ main {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	html, body, main {
 		width: 100%;
+		margin: auto;
 	}
 	.btn--new {
 		top: 3rem;
@@ -284,7 +285,6 @@ main {
 	.current{
 		padding: 1rem;
 		width: 7rem;
-
 	}
 	.current--main {
 		padding-right: 1rem;
@@ -292,9 +292,6 @@ main {
 	}
 	.current-label {
 		font-size: 1rem;
-	}
-	.current-score {
-	
 	}
 	.btn--instructions2 {
 		background-color: #fff;
