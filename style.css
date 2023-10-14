@@ -275,6 +275,9 @@ main {
 	.current-score {
 	
 	}
+	.btn {
+		opacity: 0.4;
+	}
 	#youWin{
 		width: 100%;	
 	}
