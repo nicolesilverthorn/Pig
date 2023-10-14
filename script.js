@@ -68,7 +68,7 @@ const switchPlayer = function() {
     player1El.classList.toggle('player--active');
 };
 
-// Rolling dice functionality  -- mobile functionality added but fucked up switching players on mobile now
+// Rolling dice functionality  -- mobile functionality added
 function btnRollHandler() {
     if (playing && canroll) {
         canroll = false;
