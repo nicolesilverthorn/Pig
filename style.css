@@ -250,14 +250,13 @@ main {
 /**************************************************************************** MOBILE ******************************************************************************************/
 @media only screen and (max-width: 520px) {
 	html, body, main {
-		width: 10rem;
-		overflow: hidden;
+		width: 100%;
 	}
 	.player, .player--1{
 		width: 100%; 
 	}
 	.name {
-		font-size: 20px;
+		font-size: 1rem;
 	}
 	.score {
 		
