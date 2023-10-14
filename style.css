@@ -263,13 +263,18 @@ main {
 	}
 	.name {
 		font-size: 2rem;
-		width: 8rem;
+		width: 10rem;
 	}
 	.score {
 		font-size: 6rem;
 	}
-	.current, .current--main {
+	.current{
 		padding: 1rem;
+		width: 7rem;
+
+	}
+	.current--main {
+		padding-right: 1rem;
 		width: 7rem;
 	}
 	.current-label {
