@@ -261,7 +261,7 @@ main {
 		padding: 10rem;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 	.score {
 		font-size: 6rem;
@@ -270,13 +270,21 @@ main {
 		padding: 1rem;
 	}
 	.current-label {
-		
+		font-size: 1rem;
 	}
 	.current-score {
 	
 	}
 	.btn {
-		opacity: 0.4;
+		opacity: 0.5;
+	}
+	.btn--instructions2 {
+		top: 5.2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-top: 5rem;
+		font-size: 1rem;
+		font-weight: 300;
 	}
 	#youWin{
 		width: 100%;	
