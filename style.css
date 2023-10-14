@@ -264,11 +264,11 @@ main {
 		font-size: 2rem;
 	}
 	.score {
-		
+		font-size: 6rem;
 	}
 	.current, .current--main {
 		padding: 1rem;
-		width: 
+		width: 100%;
 	}
 	.current-label {
 		
