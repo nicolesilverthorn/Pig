@@ -261,7 +261,9 @@ main {
 		padding: 10rem;
 	}
 	.name {
-		font-size: 1.5rem;
+		font-size: 2rem;
+		width: 100%;
+		text-align: center;
 	}
 	.score {
 		font-size: 6rem;
@@ -282,11 +284,11 @@ main {
 	.btn--instructions2 {
 		background-color: #fff;
 		opacity: 1;
-		top: 5.2rem;
+		top: 5rem;
 		padding-left: 1rem;
 		padding-right: 1rem;
 		padding-top: 5rem;
-		font-size: 3rem;
+		font-size: 1.8rem;
 	}
 	#youWin{
 		width: 100%;	
