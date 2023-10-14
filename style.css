@@ -259,6 +259,9 @@ main {
 	.btn--roll {
 		top: 32rem;
 	}
+	.btn--hold {
+		padding: 1rem 1rem;
+	}
 	.player{	
 		width: 50%; 
 		padding: 10rem;
@@ -269,7 +272,7 @@ main {
 	}
 	.name {
 		font-size: 2rem;
-		width: 80px;
+		width: 100px;
 	}
 	.score {
 		font-size: 6rem;
