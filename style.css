@@ -253,14 +253,11 @@ main {
 		width: 10rem;
 		overflow: hidden;
 	}
-	.player{
+	.player, .player--1{
 		width: 50%; 
 	}
-	.player--1{
-		width: 50%;
-	}
 	.name {
-		
+		font-size: 2rem;
 	}
 	.score {
 		
