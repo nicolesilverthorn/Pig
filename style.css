@@ -247,18 +247,18 @@ main {
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  html, body, main {
-    width: 100%;
-	overflow: hidden;
-  }
-  .player{
-	width: 100%; 
-  }
-  .player--1{
-	width: 100%;
-  }
-#youWin{
-	width: 100%;	
-}
+@media only screen and (max-width: 520px) {
+	html, body, main {
+		width: 100%;
+		overflow: hidden;
+	}
+	.player{
+		width: 100%; 
+	}
+	.player--1{
+		width: 100%;
+	}
+	#youWin{
+		width: 100%;	
+	}
 }
