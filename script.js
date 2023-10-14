@@ -199,6 +199,10 @@ btnHold.addEventListener('touchstart', function() {
             switchPlayer();
         }	
     }
+	
+	
+	
+	event.preventDefault();
 });
 
 btnNew.addEventListener('click', ()=>{
