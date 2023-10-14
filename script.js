@@ -68,8 +68,8 @@ const switchPlayer = function() {
     player1El.classList.toggle('player--active');
 };
 
-// Rolling dice functionality  -- mobile functionality added
-btnRoll.addEventListener('click', function() {
+// Rolling dice functionality  -- mobile functionality added but fucked up switching players on mobile now
+function btnRollHandler() {
     if (playing && canroll) {
         canroll = false;
         roll.play();
@@ -100,48 +100,17 @@ btnRoll.addEventListener('click', function() {
             canroll = true;
         },1000);
     }
-});
-btnRoll.addEventListener('touchstart', function() {
-    if (playing && canroll) {
-        canroll = false;
-        roll.play();
-        // prevent user player from rolling die while animating
-        diceEl.classList.add('rotate');
-        // 1. Generating a random dice roll
-        const dice = Math.trunc(Math.random() * 6) + 1;
-        // 2. Display dice
-        diceEl.classList.remove('hidden');
-        diceEl.src = `images/dice-${dice}.png`;
+}
+btnRoll.addEventListener('click', btnRollHandler);
+btnRoll.addEventListener('touchstart', btnRollHandler);
 
-        // adding delay for animation;
-        setTimeout(()=>{
-    
-            // 3. Check for rolled 1
-            if (dice !== 1) {
-                // Add dice to current score
-                currentScore += dice;
-                document.getElementById(`current--${activePlayer}`).textContent =
-                    currentScore;
-            } else {
-				//play pig roll sound
-				pig.play();
-                // Switch to next player
-                switchPlayer();				
-            }
-            diceEl.classList.remove('rotate');  
-            canroll = true;
-        },1000);
-    }
-});
-
-btnHold.addEventListener('click', function() {
+function btnHoldHandler() {
     if (playing) {       
         // 1. Add current score to active player's score
         scores[activePlayer] += currentScore;
         // scores[1] = scores[1] + currentScore
 
-        document.getElementById(`score--${activePlayer}`).textContent =
-            scores[activePlayer];
+        document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
         // 2. Check if player's score is >= 100
         if (scores[activePlayer] >= 100) {
@@ -166,44 +135,10 @@ btnHold.addEventListener('click', function() {
             switchPlayer();
         }	
     }
-});
-btnHold.addEventListener('touchstart', function() {
-    if (playing) {       
-        // 1. Add current score to active player's score
-        scores[activePlayer] += currentScore;
-        // scores[1] = scores[1] + currentScore
-
-        document.getElementById(`score--${activePlayer}`).textContent =
-            scores[activePlayer];
-
-        // 2. Check if player's score is >= 100
-        if (scores[activePlayer] >= 100) {
-            // Finish the game
-            playing = false;
-            diceEl.classList.add('hidden');					
-
-            document
-                .querySelector(`.player--${activePlayer}`)
-                .classList.add('player--winner');
-            document
-                .querySelector(`.player--${activePlayer}`)
-                .classList.remove('player--active');
-		
-			// display you win image
-			document.getElementById("youWin").style.display = "block";
-			tada.play();
-				
-        } else {
-			//hold.play();
-            // Switch to the next player
-            switchPlayer();
-        }	
-    }
-	
-	
-	
 	event.preventDefault();
-});
+}
+btnHold.addEventListener('click', btnHoldHandler);
+btnHold.addEventListener('touchstart', btnHoldHandler);
 
 btnNew.addEventListener('click', ()=>{
     newGame.play();
