@@ -23,6 +23,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
+  width: 100%;
+  overflow: hidden;
   color: #333;
   background-image: linear-gradient(to top right, #00ffff 40%, #238bff 100%);
   display: flex;
