@@ -254,9 +254,11 @@ main {
 	}
 	.player{	
 		width: 50%; 
+		padding: 8rem;
 	}
 	.player--1{
 		left: 50%;
+		padding: 8rem;
 	}
 	.name {
 		font-size: 2rem;
@@ -265,7 +267,8 @@ main {
 		
 	}
 	.current, .current--main {
-		
+		padding: 1rem;
+		width: 
 	}
 	.current-label {
 		
