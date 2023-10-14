@@ -252,6 +252,7 @@ main {
 	html, body, main {
 		width: 100%;
 		padding: 0;
+		overflow: hidden;
 	}
 	.btn--new {
 		top: 3rem;
